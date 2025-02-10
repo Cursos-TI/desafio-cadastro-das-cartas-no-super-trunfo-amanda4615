@@ -1,4 +1,18 @@
 #include <stdio.h>
+  
+int main(){
+     printf("desafio cartas!\n");
+
+
+
+
+
+
+
+
+
+ } 
+  
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
