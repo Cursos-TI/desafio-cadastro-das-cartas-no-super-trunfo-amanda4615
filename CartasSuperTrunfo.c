@@ -2,10 +2,9 @@
   
 int main(){
     printf("paises!");
-
-
+    printf("cadastro das cartas!");
     
-
+  
 
     
     
