@@ -1,8 +1,11 @@
 #include <stdio.h>
   
 int main(){
-    printf("desafio cartas!\n");
-    printf("novo comit!\n");
+    printf("cadastro das cartas!");
+    printf("paises!");
+    
+
+    
     
 
 
