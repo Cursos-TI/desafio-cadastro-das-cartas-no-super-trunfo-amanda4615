@@ -36,6 +36,9 @@ int main(){
 
     printf("digite total ponto turisticos:");
     scanf(" %d", &pontos_turisticos);
+
+    printf("carta A02\N");
+    
     
     
 
