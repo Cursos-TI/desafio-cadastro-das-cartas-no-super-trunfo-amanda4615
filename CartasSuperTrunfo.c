@@ -2,10 +2,8 @@
   
 int main(){
     
-    printf("carta A02\n");
+    printf("carta A03\n");
 
-    
-    
     char estado;
     char codigo_da_carta[3];
     char cidade[3];
