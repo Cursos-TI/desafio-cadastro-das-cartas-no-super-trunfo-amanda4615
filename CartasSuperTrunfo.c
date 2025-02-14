@@ -2,7 +2,7 @@
   
 int main(){
     
-    printf("carta A03\n");
+    printf("carta A04\n");
 
     char estado;
     char codigo_da_carta[3];
