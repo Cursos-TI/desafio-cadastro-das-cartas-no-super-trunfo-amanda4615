@@ -17,7 +17,7 @@ int main(){
 
     printf("Digite o Estado: ");
     scanf(" %s", &estado);
-    
+
     printf("digite o codigo da carta: ");
     scanf(" %s", &codigo_da_carta);
 
@@ -38,11 +38,44 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta: ");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
+
+
+    printf("\n\n");   
+    printf("carta 1\n");
+   
+    printf("Digite o Estado:");
+    scanf(" %c", &estado);
+    
+    printf("digite o codigo da carta:");
+    scanf(" %s", &codigo_da_carta);
+   
+    printf("digite a cidade:");
+    scanf(" %s", &cidade);
+   
+    printf("digite a populacao:");
+    scanf(" %d", &populacao);
+   
+    printf("digite a area:");
+    scanf(" %f", &area_km2);
+    
+    printf("digite o pib:");
+    scanf(" %f", &pib);
+
+    printf("digite total ponto turisticos:");
+    scanf(" %d", &pontos_turisticos);
+
+    printf("densidade populacional: ");
+    densidade_populacional = populacao / area_km2;
+    printf("%.2f\n", densidade_populacional);
+
+    printf("pib per capta:");
+    pib_per_capta = pib / populacao;
+    printf("%.2Ff\n", pib_per_capta);
 
 
     printf("\n\n");   
@@ -71,44 +104,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
-
-
-    printf("\n\n");   
-    printf("carta 1\n");
-   
-    printf("Digite o Estado:");
-    scanf(" %c", &estado);
-    
-    printf("digite o codigo da carta:");
-    scanf(" %s", &codigo_da_carta);
-   
-    printf("digite a cidade:");
-    scanf(" %s", &cidade);
-   
-    printf("digite a populacao:");
-    scanf(" %d", &populacao);
-   
-    printf("digite a area:");
-    scanf(" %f", &area_km2);
-    
-    printf("digite o pib:");
-    scanf(" %f", &pib);
-    
-    printf("digite total ponto turisticos:");
-    scanf(" %d", &pontos_turisticos);
-
-    printf("densidade populacional: ");
-    densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
-
-    printf("pib per capta:");
-    pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
    
     printf("\n\n");   
     printf("carta 1\n");
@@ -136,11 +136,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
     printf("\n\n");  
     printf("carta 2\n");
@@ -168,11 +168,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf(".2%f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
     printf("\n\n");  
     printf("carta 2\n");
@@ -200,11 +200,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
     printf("\n\n");  
     printf("carta 2\n");
@@ -237,7 +237,7 @@ int main(){
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
 
     printf("\n\n");  
@@ -266,11 +266,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
    
     printf("\n\n");  
@@ -299,11 +299,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
    
     printf("\n\n");  
@@ -332,11 +332,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
 
     printf("\n\n");  
@@ -365,11 +365,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
     printf("\n\n"); 
     printf("carta 3\N");
@@ -397,11 +397,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
 
    printf("\n\n"); 
@@ -430,11 +430,11 @@ int main(){
 
    printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
 
    printf("\n\n");
@@ -463,11 +463,11 @@ int main(){
 
    printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
 
    printf("\n\n"); 
@@ -496,11 +496,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
 
     printf("\n\n"); 
@@ -529,11 +529,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
 
     printf("\n\n"); 
@@ -562,11 +562,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
     printf("\n\n");
     printf("carta 5\n");
@@ -584,7 +584,7 @@ int main(){
    scanf(" %d", &populacao);
 
    printf("digite a area:");
-   scanf(" %f", &area_km2);
+   scanf(" %.2f", &area_km2);
 
     printf("digite o pib:");
     scanf(" %f", &pib);
@@ -594,11 +594,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
     printf("\n\n");
     printf("carta 3\n");
@@ -626,11 +626,11 @@ int main(){
 
    printf("densidade populacional: ");
    densidade_populacional = populacao / area_km2;
-   printf("%f\n", densidade_populacional);
+   printf("%.2f\n", densidade_populacional);
 
    printf("pib per capta:");
    pib_per_capta = pib / populacao;
-   printf("%f\n", pib_per_capta);
+   printf("%.2f\n", pib_per_capta);
 
    
    printf("\n\n"); 
@@ -659,11 +659,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
     printf("\n\n"); 
     printf("carta 6\n");
@@ -691,11 +691,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
     printf("\n\n"); 
     printf("carta 6\n");
@@ -723,11 +723,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf(".2%f\n", pib_per_capta);
 
     printf("\n\n"); 
     printf("carta 6\n");
@@ -755,11 +755,11 @@ int main(){
 
    printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
    
     printf("\n\n"); 
@@ -792,7 +792,7 @@ int main(){
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
     printf("\n\n"); 
     printf("carta 7\n");
@@ -820,11 +820,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
     printf("\n\n");
     printf("carta 7\n");
@@ -852,11 +852,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
 
     printf("\n\n");
@@ -885,11 +885,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
 
     printf("\n\n");
@@ -918,11 +918,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
     printf("\n\n");
     printf("carta 8\n");
@@ -950,11 +950,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
     printf("\n\n");
     printf("carta 8\n");
@@ -982,11 +982,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
     printf("\n\n");
     printf("carta 8\n");
@@ -1014,11 +1014,11 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional = populacao / area_km2;
-    printf("%f\n", densidade_populacional);
+    printf("%.2f\n", densidade_populacional);
 
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
-    printf("%f\n", pib_per_capta);
+    printf("%.2f\n", pib_per_capta);
 
     printf("\n\n");
     printf("carta 8\n");
@@ -1046,11 +1046,11 @@ int main(){
 
    printf("densidade populacional: ");
    densidade_populacional = populacao / area_km2;
-   printf("%f\n", densidade_populacional);
+   printf("%.2f\n", densidade_populacional);
 
    printf("pib per capta:");
    pib_per_capta = pib / populacao;
-   printf("%f\n", pib_per_capta);
+   printf(".2%f\n", pib_per_capta);
 
 
 
