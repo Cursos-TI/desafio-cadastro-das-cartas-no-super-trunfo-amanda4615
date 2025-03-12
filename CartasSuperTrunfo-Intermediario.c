@@ -5,7 +5,7 @@ int main(){
     char estado[2];
     char codigo_da_carta[3];
     char cidade[3];
-    int populacao;
+    unsigned long int populacao;
     float area_km2;
     float pib;
     int pontos_turisticos;
