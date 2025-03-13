@@ -5,12 +5,14 @@ int main(){
     char estado[2];
     char codigo_da_carta[3];
     char cidade[3];
-    unsigned long int populacao;
+    int  populacao;
     float area_km2;
     float pib;
     int pontos_turisticos;
     float pib_per_capta;
     float densidade_populacional;
+    float super_poder;
+
    
     printf("\n\n");   
     printf("carta 1\n");
@@ -24,15 +26,16 @@ int main(){
     printf("digite a cidade: ");
     scanf(" %s", &cidade);
    
-    printf("digite a populacao: ");
-    scanf(" %d", &populacao);
+    printf("digite a população");
+    scanf(" %f", &populacao);
    
-    printf("digite a area: ");
+    printf("digite a area ");
     scanf(" %f", &area_km2);
 
-    printf("digite o pib: ");
+    printf("digite o pib ");
     scanf(" %f", &pib);
     
+
     printf("digite total ponto turisticos: ");
     scanf(" %d", &pontos_turisticos);
 
