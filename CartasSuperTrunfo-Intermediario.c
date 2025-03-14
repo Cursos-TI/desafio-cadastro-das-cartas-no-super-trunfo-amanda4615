@@ -5,13 +5,16 @@ int main(){
     char estado[2];
     char codigo_da_carta[3];
     char cidade[3];
-    int  populacao;
+    int pontos_turisticos;
+    float populacao;
     float area_km2;
     float pib;
-    int pontos_turisticos;
     float pib_per_capta;
     float densidade_populacional;
     float super_poder;
+    
+
+
 
    
     printf("\n\n");   
@@ -26,7 +29,7 @@ int main(){
     printf("digite a cidade: ");
     scanf(" %s", &cidade);
    
-    printf("digite a população");
+    printf("digite a população: ");
     scanf(" %f", &populacao);
    
     printf("digite a area ");
@@ -46,6 +49,11 @@ int main(){
     printf("pib per capta: ");
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
+
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
 
 
     printf("\n\n");   
@@ -80,6 +88,11 @@ int main(){
     pib_per_capta = pib / populacao;
     printf("%.2Ff\n", pib_per_capta);
 
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
+
 
     printf("\n\n");   
     printf("carta 1\n");
@@ -112,6 +125,11 @@ int main(){
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
+
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
    
     printf("\n\n");   
     printf("carta 1\n");
@@ -144,6 +162,11 @@ int main(){
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
+
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
 
     printf("\n\n");  
     printf("carta 2\n");
@@ -177,6 +200,11 @@ int main(){
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
 
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
+
     printf("\n\n");  
     printf("carta 2\n");
 
@@ -208,6 +236,11 @@ int main(){
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
+
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
 
     printf("\n\n");  
     printf("carta 2\n");
@@ -242,6 +275,11 @@ int main(){
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
 
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
+
 
     printf("\n\n");  
     printf("carta 2\n");
@@ -274,6 +312,11 @@ int main(){
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
+
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
 
    
     printf("\n\n");  
@@ -308,6 +351,11 @@ int main(){
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
 
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
+
    
     printf("\n\n");  
     printf("carta 3\n");
@@ -341,6 +389,11 @@ int main(){
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
 
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
+
 
     printf("\n\n");  
     printf("carta 3\n");
@@ -373,6 +426,11 @@ int main(){
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
+
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
 
     printf("\n\n"); 
     printf("carta 3\N");
@@ -439,6 +497,11 @@ int main(){
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
 
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
+
 
    printf("\n\n");
    printf("carta 4\n");
@@ -504,6 +567,11 @@ int main(){
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
+
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
 
 
     printf("\n\n"); 
@@ -603,6 +671,11 @@ int main(){
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
 
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
+
     printf("\n\n");
     printf("carta 3\n");
     
@@ -634,6 +707,11 @@ int main(){
    printf("pib per capta:");
    pib_per_capta = pib / populacao;
    printf("%.2f\n", pib_per_capta);
+
+   printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
 
    
    printf("\n\n"); 
@@ -668,6 +746,11 @@ int main(){
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
 
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
+
     printf("\n\n"); 
     printf("carta 6\n");
 
@@ -700,6 +783,11 @@ int main(){
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
 
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
+
     printf("\n\n"); 
     printf("carta 6\n");
 
@@ -731,6 +819,11 @@ int main(){
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
     printf(".2%f\n", pib_per_capta);
+
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
 
     printf("\n\n"); 
     printf("carta 6\n");
@@ -797,6 +890,11 @@ int main(){
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
 
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
+
     printf("\n\n"); 
     printf("carta 7\n");
 
@@ -861,6 +959,11 @@ int main(){
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
 
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
+
 
     printf("\n\n");
     printf("carta 7\n");
@@ -893,6 +996,11 @@ int main(){
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
+
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
 
 
     printf("\n\n");
@@ -927,6 +1035,11 @@ int main(){
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
 
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
+   
     printf("\n\n");
     printf("carta 8\n");
 
@@ -959,6 +1072,11 @@ int main(){
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
 
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
+
     printf("\n\n");
     printf("carta 8\n");
 
@@ -990,6 +1108,11 @@ int main(){
     printf("pib per capta:");
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
+
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
 
     printf("\n\n");
     printf("carta 8\n");
@@ -1023,6 +1146,11 @@ int main(){
     pib_per_capta = pib / populacao;
     printf("%.2f\n", pib_per_capta);
 
+    printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
+
     printf("\n\n");
     printf("carta 8\n");
 
@@ -1054,6 +1182,11 @@ int main(){
    printf("pib per capta:");
    pib_per_capta = pib / populacao;
    printf(".2%f\n", pib_per_capta);
+
+   printf("super poder: ");
+    super_poder = pontos_turisticos + area_km2 + pib + pib_per_capta + populacao + (1 / densidade_populacional);
+    printf("%.2f\n", super_poder);
+
 
 
 
