@@ -44,6 +44,9 @@ int main(){
     pib_per_capta = pib / populacao;
     printf("%f\n", pib_per_capta);
 
+    
+
+
 
     printf("\n\n");   
     printf("carta 1\n");
