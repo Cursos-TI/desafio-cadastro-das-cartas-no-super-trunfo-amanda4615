@@ -332,11 +332,10 @@ int main(){
     int resultado = populacao_carta1 > populacao_carta2;
     printf("populacao_carta1 > populacao_carta2: %d\n\n\n", resultado);
     
-
     printf("pontos_turisticos_carta1: %d\n", pontos_turisticos_carta1);
     printf("pontos_turisticos_carta2: %d\n", pontos_turisticos_carta2);
 
-    int resultado = pontos_turisticos_carta1 < pontos_turisticos_carta2;
+    resultado = pontos_turisticos_carta1 < pontos_turisticos_carta2;
     printf("pontos_turisticos_carta1 < pontos_turisticos_carta2: %d\n\n\n", resultado);
 
     
