@@ -338,6 +338,18 @@ int main(){
     resultado = pontos_turisticos_carta1 < pontos_turisticos_carta2;
     printf("pontos_turisticos_carta1 < pontos_turisticos_carta2: %d\n\n\n", resultado);
 
+    printf("area_km2_carta1: %d\n", pontos_turisticos_carta1);
+    printf("area_km2_carta1: %d\n", area_km2_carta2);
+
+    resultado2 = area_km2_carta1 == area_km2_carta2;
+    printf("area_km2_carta1 == area_km2_carta2: %d\n\n\n", resultado2);
+
+    resultado3 = pib_carta1 != pib_carta2;
+    printf("_carta1 == area_km2_carta2: %d\n\n\n", resultado2);
+
+
+
+
     
 
     
