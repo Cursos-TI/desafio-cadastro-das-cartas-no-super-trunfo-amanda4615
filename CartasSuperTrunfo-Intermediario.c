@@ -344,8 +344,11 @@ int main(){
     resultado2 = area_km2_carta1 == area_km2_carta2;
     printf("area_km2_carta1 == area_km2_carta2: %d\n\n\n", resultado2);
 
+    printf("pib_carta1: %d\n", pib_carta1);
+    printf("pib_carta2: %d\n", pib_carta2);
+
     resultado3 = pib_carta1 != pib_carta2;
-    printf("_carta1 == area_km2_carta2: %d\n\n\n", resultado2);
+    printf("pib_carta1 != pib_carta2: %d\n\n\n", resultado3);
 
 
 
