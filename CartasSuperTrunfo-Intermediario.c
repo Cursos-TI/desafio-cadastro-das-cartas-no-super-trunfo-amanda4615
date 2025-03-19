@@ -357,6 +357,14 @@ int main(){
     printf("pib_per_capta_carta1 > pib_per_capta_carta2: %d\n\n\n", resultado4);
     printf("pib_per_capta_carta1 > pib_per_capta_carta2: %d\n\n\n", resultado4);
 
+    printf("densidade_populacional_carta1: %d\n", densidade_populacional_carta1);
+    printf("densidade_populacionalcarta2: %d\n", densidade_populacional_carta2);
+    
+    resultado5 = densidade_populacional_carta1 < densidade_populacional_carta2;
+    printf("densidade_populacional_carta1 < densidade_populacional_carta2: %d\n\n\n", resultado5);
+    printf("densidade_populacional_carta1 < densidade_populacional_carta2: %d\n\n\n", resultado5);
+
+
 
 
 
