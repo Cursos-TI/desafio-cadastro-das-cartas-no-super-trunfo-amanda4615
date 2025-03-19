@@ -350,6 +350,14 @@ int main(){
     resultado3 = pib_carta1 != pib_carta2;
     printf("pib_carta1 != pib_carta2: %d\n\n\n", resultado3);
 
+    printf("pib_per_capta_carta1: %d\n", pib_per_capta_carta1);
+    printf("pib_per_capta_carta2: %d\n", pib_per_capta_carta2);
+
+    resultado4 = pib_per_capta_carta1 > pib_per_capta_carta2;
+    printf("pib_per_capta_carta1 > pib_per_capta_carta2: %d\n\n\n", resultado4);
+    printf("pib_per_capta_carta1 > pib_per_capta_carta2: %d\n\n\n", resultado4);
+
+
 
 
 
