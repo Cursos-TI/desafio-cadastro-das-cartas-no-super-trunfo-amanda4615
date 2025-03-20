@@ -106,6 +106,9 @@ int main(){
 
     bool resultado;
 
+    printf("pontos_turisticos_cartao1: %d\n", pontos_turisticos_carta1);
+    printf("pontos_turisticos_carta1: %d\n", pontos_turisticos_carta2);
+
     resultado = pontos_turisticos_carta1 < pontos_turisticos_carta2;
     printf("pontos_turisticos_carta1 < pontos_turisticos_carta2: %d\n\n\n", resultado);
 
@@ -131,7 +134,7 @@ int main(){
     printf("pib_carta2: %.2f\n", pib_carta2);
 
     resultado = pib_carta1 != pib_carta2;
-    printf("pib_carta1 != pib_carta2: %.2f\n\n\n", resultado);
+    printf("pib_carta1 != pib_carta2: %d\n\n\n", resultado);
 
     printf("pib_per_capta_carta1: %.2f\n", pib_per_capta_carta1);
     printf("pib_per_capta_carta2: %.2f\n", pib_per_capta_carta2);
