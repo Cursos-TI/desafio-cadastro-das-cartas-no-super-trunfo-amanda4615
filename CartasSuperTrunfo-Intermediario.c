@@ -47,7 +47,7 @@ int main(){
 
     printf("densidade populacional: ");
     densidade_populacional_carta1 = populacao_carta1 / area_km2_carta1;
-    printf(".2%f\n", densidade_populacional_carta1);
+    printf("%.2f\n", densidade_populacional_carta1);
 
     printf("pib per capta: ");
     pib_per_capta_carta1 = pib_carta1 / populacao_carta1;
@@ -58,10 +58,7 @@ int main(){
     super_poder_carta1 = pontos_turisticos_carta1 + area_km2_carta1 + pib_carta1 + pib_per_capta_carta1 + populacao_carta1 + (1 / densidade_populacional_carta1);
     printf("%.2f\n", super_poder_carta1);
 
-    printf("super poder: ");
-    super_poder_carta2 = pontos_turisticos_carta2 + area_km2_carta2 + pib_carta2 + pib_per_capta_carta2 + populacao_carta2 + (1 / densidade_populacional_carta2);
-    printf("%.2f\n", super_poder_carta2);
-
+    
 
     //
     // CARTA 2
