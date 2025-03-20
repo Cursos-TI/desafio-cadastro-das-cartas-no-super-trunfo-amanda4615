@@ -104,21 +104,16 @@ int main(){
     // RESULTADOS
     //
 
-    int resultado;
-    int resultado2;
-    int resultado3;
-    int resultado4;
-    int resultado5;
-    int resultado6;
+    bool resultado;
 
     resultado = pontos_turisticos_carta1 < pontos_turisticos_carta2;
     printf("pontos_turisticos_carta1 < pontos_turisticos_carta2: %d\n\n\n", resultado);
 
-    printf("populacao cartao1: %f\n", populacao_carta1);
-    printf("populacao cartao2: %f\n", populacao_carta2);
+    printf("populacao cartao1: %.2f\n", populacao_carta1);
+    printf("populacao cartao2: %.2f\n", populacao_carta2);
 
-    int resultado = populacao_carta1 > populacao_carta2;
-    printf("populacao_carta1 > populacao_carta2: %f\n\n\n", resultado);
+    resultado = populacao_carta1 > populacao_carta2;
+    printf("populacao_carta1 > populacao_carta2: %d\n\n\n", resultado);
     
     printf("pontos_turisticos_carta1: %d\n", pontos_turisticos_carta1);
     printf("pontos_turisticos_carta2: %d\n", pontos_turisticos_carta2);
@@ -126,39 +121,36 @@ int main(){
     resultado = pontos_turisticos_carta1 < pontos_turisticos_carta2;
     printf("pontos_turisticos_carta1 < pontos_turisticos_carta2: %d\n\n\n", resultado);
 
-    printf("area_km2_carta1: %f\n", pontos_turisticos_carta1);
-    printf("area_km2_carta1: %f\n", area_km2_carta2);
+    printf("area_km2_carta1: %.2f\n", area_km2_carta1);
+    printf("area_km2_carta1: %.2f\n", area_km2_carta2);
 
-    resultado2 = area_km2_carta1 == area_km2_carta2;
-    printf("area_km2_carta1 == area_km2_carta2: %f\n\n\n", resultado2);
+    resultado = area_km2_carta1 == area_km2_carta2;
+    printf("area_km2_carta1 == area_km2_carta2: %d\n\n\n", resultado);
 
-    printf("pib_carta1: %f\n", pib_carta1);
-    printf("pib_carta2: %f\n", pib_carta2);
+    printf("pib_carta1: %.2f\n", pib_carta1);
+    printf("pib_carta2: %.2f\n", pib_carta2);
 
-    resultado3 = pib_carta1 != pib_carta2;
-    printf("pib_carta1 != pib_carta2: %f\n\n\n", resultado3);
+    resultado = pib_carta1 != pib_carta2;
+    printf("pib_carta1 != pib_carta2: %.2f\n\n\n", resultado);
 
-    printf("pib_per_capta_carta1: %f\n", pib_per_capta_carta1);
-    printf("pib_per_capta_carta2: %f\n", pib_per_capta_carta2);
+    printf("pib_per_capta_carta1: %.2f\n", pib_per_capta_carta1);
+    printf("pib_per_capta_carta2: %.2f\n", pib_per_capta_carta2);
 
-    resultado4 = pib_per_capta_carta1 > pib_per_capta_carta2;
-    printf("pib_per_capta_carta1 > pib_per_capta_carta2: %f\n\n\n", resultado4);
-    printf("pib_per_capta_carta1 > pib_per_capta_carta2: %f\n\n\n", resultado4);
-
-    printf("densidade_populacional_carta1: %f\n", densidade_populacional_carta1);
-    printf("densidade_populacionalcarta2: %f\n", densidade_populacional_carta2);
+    resultado = pib_per_capta_carta1 > pib_per_capta_carta2;
+    printf("pib_per_capta_carta1 > pib_per_capta_carta2: %d\n\n\n", resultado);
+  
+    printf("densidade_populacional_carta1: %.2f\n", densidade_populacional_carta1);
+    printf("densidade_populacionalcarta2: %.2f\n", densidade_populacional_carta2);
     
-    resultado5 = densidade_populacional_carta1 < densidade_populacional_carta2;
-    printf("densidade_populacional_carta1 < densidade_populacional_carta2: %f\n\n\n", resultado5);
-    printf("densidade_populacional_carta1 < densidade_populacional_carta2: %f\n\n\n", resultado5);
-
-    printf("super_poder_carta1: %f\n", super_poder_carta1);
-    printf("super_poder_carta2: %f\n", super_poder_carta2);
+    resultado = densidade_populacional_carta1 < densidade_populacional_carta2;
+    printf("densidade_populacional_carta1 < densidade_populacional_carta2: %d\n\n\n", resultado);
+   
+    printf("super_poder_carta1: %.2f\n", super_poder_carta1);
+    printf("super_poder_carta2: %.2f\n", super_poder_carta2);
     
-    resultado6 = super_poder_carta1 > super_poder_carta2;
-    printf("super_poder_carta1 > super_poder_carta2: %f\n\n\n", resultado6);
-    printf("super_poder_carta1 > super_poder_carta2: %f\n\n\n", resultado6);
-
+    resultado = super_poder_carta1 > super_poder_carta2;
+    printf("super_poder_carta1 > super_poder_carta2: %d\n\n\n", resultado);
+   
 
     return 0;
 }
