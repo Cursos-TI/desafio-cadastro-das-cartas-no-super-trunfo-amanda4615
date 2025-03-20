@@ -117,6 +117,21 @@ int main(){
     resultado = pontos_turisticos_carta1 < pontos_turisticos_carta2;
     printf("pontos_turisticos_carta1 < pontos_turisticos_carta2: %d\n\n\n", resultado);
 
+    printf("populacao cartao1: %f\n", populacao_carta1);
+    printf("populacao cartao2: %f\n", populacao_carta2);
+
+    int resultado = populacao_carta1 > populacao_carta2;
+    printf("populacao_carta1 > populacao_carta2: %d\n\n\n", resultado);
+    
+    printf("pontos_turisticos_carta1: %d\n", pontos_turisticos_carta1);
+    printf("pontos_turisticos_carta2: %d\n", pontos_turisticos_carta2);
+
+    resultado = pontos_turisticos_carta1 < pontos_turisticos_carta2;
+    printf("pontos_turisticos_carta1 < pontos_turisticos_carta2: %d\n\n\n", resultado);
+
+    printf("area_km2_carta1: %d\n", pontos_turisticos_carta1);
+    printf("area_km2_carta1: %d\n", area_km2_carta2);
+
     resultado2 = area_km2_carta1 == area_km2_carta2;
     printf("area_km2_carta1 == area_km2_carta2: %d\n\n\n", resultado2);
 
@@ -125,7 +140,7 @@ int main(){
 
     resultado3 = pib_carta1 != pib_carta2;
     printf("pib_carta1 != pib_carta2: %d\n\n\n", resultado3);
-    
+
     printf("pib_per_capta_carta1: %d\n", pib_per_capta_carta1);
     printf("pib_per_capta_carta2: %d\n", pib_per_capta_carta2);
 
@@ -133,6 +148,9 @@ int main(){
     printf("pib_per_capta_carta1 > pib_per_capta_carta2: %d\n\n\n", resultado4);
     printf("pib_per_capta_carta1 > pib_per_capta_carta2: %d\n\n\n", resultado4);
 
+    printf("densidade_populacional_carta1: %d\n", densidade_populacional_carta1);
+    printf("densidade_populacionalcarta2: %d\n", densidade_populacional_carta2);
+    
     resultado5 = densidade_populacional_carta1 < densidade_populacional_carta2;
     printf("densidade_populacional_carta1 < densidade_populacional_carta2: %d\n\n\n", resultado5);
     printf("densidade_populacional_carta1 < densidade_populacional_carta2: %d\n\n\n", resultado5);
