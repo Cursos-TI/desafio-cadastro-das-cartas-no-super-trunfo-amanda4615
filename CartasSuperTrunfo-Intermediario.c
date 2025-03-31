@@ -110,9 +110,21 @@ int main(){
       printf("Carta1 venceu!\n");
 
     }else{
-        printf("Carta2 venceu!|n");
-     }
+        printf("Carta2 venceu!\n");
+
+    }
+
+        printf("carta1 - area: 1298km²\n");
+
+        printf("carta2 - area: 1398km²\n");
+
+        printf("resultado: cata2 venceu!");
+
     
+
+     
+      
+       
      
         
     
