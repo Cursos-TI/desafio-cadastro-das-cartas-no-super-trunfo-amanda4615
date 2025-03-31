@@ -104,58 +104,19 @@ int main(){
 
 
     //
-    // RESULTADOS
+    // comparação if e esle entre area carta1 e area carta.
     //
+    if( area_km2_carta1 > area_km2_carta2){
+      printf("Carta1 venceu!\n");
 
-    bool resultado;
-
-    printf("pontos_turisticos_cartao1: %d\n", pontos_turisticos_carta1);
-    printf("pontos_turisticos_carta1: %d\n", pontos_turisticos_carta2);
-
-    resultado = pontos_turisticos_carta1 < pontos_turisticos_carta2;
-    printf("pontos_turisticos_carta1 < pontos_turisticos_carta2: %d\n\n\n", resultado);
-
-    printf("populacao cartao1: %.2f\n", populacao_carta1);
-    printf("populacao cartao2: %.2f\n", populacao_carta2);
-
-    resultado = populacao_carta1 > populacao_carta2;
-    printf("populacao_carta1 > populacao_carta2: %d\n\n\n", resultado);
+    }else{
+        printf("Carta2 venceu!|n");
+     }
     
-    printf("pontos_turisticos_carta1: %d\n", pontos_turisticos_carta1);
-    printf("pontos_turisticos_carta2: %d\n", pontos_turisticos_carta2);
-
-    resultado = pontos_turisticos_carta1 < pontos_turisticos_carta2;
-    printf("pontos_turisticos_carta1 < pontos_turisticos_carta2: %d\n\n\n", resultado);
-
-    printf("area_km2_carta1: %.2f\n", area_km2_carta1);
-    printf("area_km2_carta1: %.2f\n", area_km2_carta2);
-
-    resultado = area_km2_carta1 == area_km2_carta2;
-    printf("area_km2_carta1 == area_km2_carta2: %d\n\n\n", resultado);
-
-    printf("pib_carta1: %.2f\n", pib_carta1);
-    printf("pib_carta2: %.2f\n", pib_carta2);
-
-    resultado = pib_carta1 != pib_carta2;
-    printf("pib_carta1 != pib_carta2: %d\n\n\n", resultado);
-
-    printf("pib_per_capta_carta1: %.2f\n", pib_per_capta_carta1);
-    printf("pib_per_capta_carta2: %.2f\n", pib_per_capta_carta2);
-
-    resultado = pib_per_capta_carta1 > pib_per_capta_carta2;
-    printf("pib_per_capta_carta1 > pib_per_capta_carta2: %d\n\n\n", resultado);
-  
-    printf("densidade_populacional_carta1: %.2f\n", densidade_populacional_carta1);
-    printf("densidade_populacionalcarta2: %.2f\n", densidade_populacional_carta2);
+     
+        
     
-    resultado = densidade_populacional_carta1 < densidade_populacional_carta2;
-    printf("densidade_populacional_carta1 < densidade_populacional_carta2: %d\n\n\n", resultado);
-   
-    printf("super_poder_carta1: %.2f\n", super_poder_carta1);
-    printf("super_poder_carta2: %.2f\n", super_poder_carta2);
-    
-    resultado = super_poder_carta1 > super_poder_carta2;
-    printf("super_poder_carta1 > super_poder_carta2: %d\n\n\n", resultado);
+       
    
 
     return 0;
