@@ -3,9 +3,13 @@
   
 int main(){
     
-    char estado[3];
-    char codigo_da_carta[3];
-    char cidade[50];
+    char estado_carta1[3];
+    char codigo_da_carta_carta1[3];
+    char cidade_carta1[50];
+    char estado_carta2[3];
+    char codigo_da_carta_carta2[3];
+    char cidade_carta2[50];
+    
     int pontos_turisticos_carta1;
     int pontos_turisticos_carta2;
     float populacao_carta1;
@@ -25,13 +29,13 @@ int main(){
     printf("carta 1\n");
 
     printf("Digite o estado: ");
-    scanf(" %s", estado);
+    scanf(" %s", estado_carta1);
 
     printf("digite o codigo da carta: ");
-    scanf(" %s", codigo_da_carta);
+    scanf(" %s", codigo_da_carta_carta1);
 
     printf("digite a cidade: ");
-    scanf(" %s", cidade);
+    scanf(" %s", cidade_carta1);
    
     printf("digite a população: ");
     scanf(" %f", &populacao_carta1);
@@ -68,13 +72,13 @@ int main(){
     printf("carta 2\n");
    
     printf("Digite o Estado:");
-    scanf(" %s", estado);
+    scanf(" %s", estado_carta2);
     
     printf("digite o codigo da carta:");
-    scanf(" %s", codigo_da_carta);
+    scanf(" %s", codigo_da_carta_carta2);
 
     printf("digite a cidade:");
-    scanf(" %s", cidade);
+    scanf(" %s", cidade_carta2);
 
     printf("digite a populacao:");
     scanf(" %f", &populacao_carta2);
@@ -100,36 +104,22 @@ int main(){
     pib_per_capta_carta2 = pontos_turisticos_carta2 + populacao_carta2 + area_km2_carta2 + pib_carta2 + pib_per_capta_carta2 + densidade_populacional_carta2;
     printf(".2%f\n", pib_per_capta_carta2);
 
-    
-
 
     //
     // comparação if e esle entre area carta1 e area carta.
     //
-    if( area_km2_carta1 > area_km2_carta2){
+    if ( area_km2_carta1 > area_km2_carta2) {
       printf("Carta1 venceu!\n");
+      printf("cidade: %s, valor da carta = %.2f\n", cidade_carta1, area_km2_carta1);
+      
+     } else if ( area_km2_carta1 < area_km2_carta2) {
+      printf("Carta2 venceu!\n");
+      printf("cidade: %s, valor da carta = %.2f\n", cidade_carta2, area_km2_carta2);
 
-    }else{
-        printf("Carta2 venceu!\n");
+    } else {
+        printf("houve um empate!\n");
 
     }
-
-        printf("carta1 - area: 1298km²\n");
-
-        printf("carta2 - area: 1398km²\n");
-
-        printf("resultado: cata2 venceu!");
-
-    
-
-     
-      
-       
-     
-        
-    
-       
-   
 
     return 0;
 }
