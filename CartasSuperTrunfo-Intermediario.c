@@ -1,111 +1,54 @@
+
 #include <stdio.h>
 
-// Função recursiva para movimento da Torre para cima
-void moverTorreCima(int casas) {
-    if (casas <= 0) return;
-    printf("Cima\n");
-    moverTorreCima(casas - 1);
-}
+#define TAMANHO_TABULEIRO 10
+#define TAMANHO_NAVIO 3
 
-// Função recursiva para movimento da Torre para a direita
-void moverTorreDireita(int casas) {
-    if (casas <= 0) return;
-    printf("Direita\n");
-    moverTorreDireita(casas - 1);
-}
-
-// Função recursiva para movimento da Rainha (cima e direita)
-void moverRainha(int casas) {
-    if (casas <= 0) return;
-    printf("Cima\n");
-    printf("Direita\n");
-    moverRainha(casas - 1);
-}
-
-// Função recursiva para movimento do Bispo (diagonal)
-void moverBispo(int casas) {
-    if (casas <= 0) return;
-    printf("Diagonal (Cima e Direita)\n");
-    moverBispo(casas - 1);
-}
-
-// Movimento do Cavalo com loops aninhados (duas para cima e uma para a direita)
-#include <stdio.h>
-
-void moverCavalo() {
-    int movimentos = 3; // quantidade de movimentos simulados
-
-    for (int i = 0; i < movimentos; i++) {
-        for (int j = 0; j < 2; j++) {  // loop para o movimento "para cima"
-            if (j == 1) {
-                printf("Cima\n");
-            }
+// Função para imprimir o tabuleiro
+void imprimirTabuleiro(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO]) {
+    printf("=== TABULEIRO BATALHA NAVAL ===\n\n");
+    for (int i = 0; i < TAMANHO_TABULEIRO; i++) {
+        for (int j = 0; j < TAMANHO_TABULEIRO; j++) {
+            printf("%d ", tabuleiro[i][j]);
         }
-
-        for (int k = 0; k < 1; k++) {  // loop para o movimento "para a direita"
-            printf("Direita\n");
-        }
-
-        printf("\n");  // separa os movimentos
-    }
-}
-
-
-
-
-
-// Loops aninhados para o bispo
-void moverBispoLoops() {
-    for (int i = 1; i <= 4; i++) {
-        for (int j = 1; j <= 4; j++) {
-            if (i == j) {
-                printf("Diagonal com loops: Cima e Direita (%d,%d)\n", i, j);
-            }
-        }
+        printf("\n");
     }
 }
 
 int main() {
-    int casasTorre = 3;
-    int casasRainha = 2;
-    int casasBispo = 3;
+    // Inicializa o tabuleiro com água (0)
+    int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO] = {0};
 
-    printf("Movimento da Torre para cima:\n");
-    moverTorreCima(casasTorre);
+    // Define os navios como arrays com valor 3 (representa parte do navio)
+    int navioHorizontal[TAMANHO_NAVIO] = {3, 3, 3};
+    int navioVertical[TAMANHO_NAVIO] = {3, 3, 3};
 
-    printf("\nMovimento da Torre para direita:\n");
-    moverTorreDireita(casasTorre);
+    // Coordenadas de início dos navios
+    int linhaH = 2;  // linha inicial do navio horizontal
+    int colunaH = 4; // coluna inicial do navio horizontal
 
-    printf("\nMovimento da Rainha (Cima e Direita):\n");
-    moverRainha(casasRainha);
+    int linhaV = 5;  // linha inicial do navio vertical
+    int colunaV = 1; // coluna inicial do navio vertical
 
-    printf("\nMovimento do Bispo (Recursivo):\n");
-    moverBispo(casasBispo);
+    // Validação simples: se o navio cabe no tabuleiro e não há sobreposição
+    if (colunaH + TAMANHO_NAVIO <= TAMANHO_TABULEIRO) {
+        for (int i = 0; i < TAMANHO_NAVIO; i++) {
+            if (tabuleiro[linhaH][colunaH + i] == 0) {
+                tabuleiro[linhaH][colunaH + i] = navioHorizontal[i];
+            }
+        }
+    }
 
-    printf("\nMovimento do Bispo com loops aninhados:\n");
-    moverBispoLoops();
+    if (linhaV + TAMANHO_NAVIO <= TAMANHO_TABULEIRO) {
+        for (int i = 0; i < TAMANHO_NAVIO; i++) {
+            if (tabuleiro[linhaV + i][colunaV] == 0) {
+                tabuleiro[linhaV + i][colunaV] = navioVertical[i];
+            }
+        }
+    }
 
-    printf("\nMovimento do Cavalo:\n");
-    moverCavalo();
+    // Exibe o tabuleiro final com os navios posicionados
+    imprimirTabuleiro(tabuleiro);
 
     return 0;
 }
-
-
-
-
-
- 
-  
-  
-
-  
-
-
-
-  
-  
-
-
-
-  
